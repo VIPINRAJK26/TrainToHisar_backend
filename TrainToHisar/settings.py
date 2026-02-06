@@ -42,6 +42,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://traintohisarbackend-production.up.railway.app",
+]
+
 ROOT_URLCONF = 'TrainToHisar.urls'
 
 CORS_ALLOW_ALL_ORIGINS = True
